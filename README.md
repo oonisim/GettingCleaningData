@@ -7,16 +7,10 @@ See http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smar
 
 
 ### Usage
-* Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it to your working directory
-* Make sure folder structure and files below are created. 
-UCI HAR Dataset
-|-- activity_labels.txt
-|-- features.txt
-|-- test/
-|-- train/
+* Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it to your working directory. Make sure UCI HAR Dataset folder is created. 
 * Change the working directory to UCI HAR Dataset
-* Place run_analysis.R script the directory.
-* In R console, run `source("run_analysis.R")`, it may take a few seconds
+* Place run_analysis.R script in the directory.
+* In R console, change the wd to the directory and run `source("run_analysis.R")`, it may take a few seconds
 
 ### Results
 1. Result view of mean values of each variable (grouped by subject, activity) in R.
