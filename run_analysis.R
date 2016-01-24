@@ -1,3 +1,22 @@
+#================================================================================
+# Coursera Getting and Clearing Data assigment
+# https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
+#--------------------------------------------------------------------------------
+# [Function]
+# Generate mean value of only the measurements on the mean and standard deviation 
+# grouped by (subject, activity).
+# 
+# [Inputs]
+# Data extracted from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#  
+# [History]
+# 24 JAN 2016: TK
+# 
+# [Usage]
+# See README.md
+#================================================================================
+
+
 #--------------------------------------------------------------------------------
 # Read feature names of the data X to use as column names for the data X.
 #--------------------------------------------------------------------------------
